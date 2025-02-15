@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Macht die Höhe des Viewports 100% */
+    margin: 0;
+}
+
+/* Grundlegende Button-Stile */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #f39c12; /* Gold */
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease; /* Für den Aufleuchte-Effekt */
+}
+
+/* Hover-Effekt */
+.button:hover {
+    background-color: #f1c40f; /* Helleres Gold */
+    box-shadow: 0 0 20px rgba(243, 156, 18, 0.7); /* Aufleuchten */
+}
